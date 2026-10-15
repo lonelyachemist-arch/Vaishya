@@ -1,2 +1,5 @@
+**Idiomas:** [English](README.md) | [Português](README.pt-BR.md) | [Español](README.es-ES.md)
 # Vaishya
-A proof-of-concept for applying post-quantum cryptography and linguistic steganography to financial interoperability. Documentation is available in EN for European/Asian readers and in PT/ES for LATAM and Iberian readers.
+Vaishya (Merchant) is a proof-of-concept for post-quantum cryptography and linguistic steganography applied to financial interoperability. 
+
+> "It is the liberation of the merchant from the borders between data, algorithms, and countries."
