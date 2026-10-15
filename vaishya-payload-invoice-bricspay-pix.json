@@ -1,0 +1,24 @@
+{
+  "paymentReference": "PEDIDO09111989",
+  "method":           "PIX",
+  "currencyTicker":   "BRL",
+  "returnUrl":        "https://tencent.com/return",
+  "successUrl":       "https://tencent.com/success",
+ "client": {
+    "billing": {
+      "countryCode": "BR",
+      "email":       "Marioh@tutamail.com",
+      "phone":       "+5581200820091",
+      "firstName":   "Mario",
+      "lastName":    "Henrique"
+    }
+  },
+  "products": [
+    {
+      "name":      "Delta Force - Metal Gear Solid 1 DLC",
+      "sku":       "delta-mgsdlc",
+      "unitPrice": 75.00,
+      "quantity":  1
+    }
+  ]
+}
