@@ -1,16 +1,4 @@
-// vaishya-vault-encrypt.js — end-to-end multi-recipient ML-KEM-768 envelope (Layer 4).
-// SINGLE GENERATION WITH OVERWRITE: on each run (without --keep) ALL .kxco are
-// regenerated and the script prints to the terminal exactly what it wrote to the file
-// (recipient + kid), with read-back proving terminal == file.
-// `--keep` reuses existing .kxco files untouched.
-// Flow: (re)generates identities -> encrypts -> prints CIPHERTEXT (hex) -> writes .kxco
-// -> selftest: decrypts with EACH identity and compares SHA.
-// PQC: ML-KEM-768 only (refuses any other algorithm). AES-256-GCM on the payload.
-// Usage: node vaishya-vault-encrypt [<id.kxco> ...] [--in input] [--out output] [--keep]
-// Defaults: steam tencent bcb pboc; in=pure payload; out=<in>.kxco
-// runs lore/envelope.md → "kid é etiqueta, não chave"
-// runs lore/envelope.md → "Geração única: o terminal gera, o arquivo guarda, o script consome"
-// runs lore/envelope.md → "Camadas independentes: cifra no JSON, wenyan em processo próprio"
+
 import { createHash, randomBytes } from 'node:crypto';
 import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, isAbsolute, resolve } from 'node:path';
