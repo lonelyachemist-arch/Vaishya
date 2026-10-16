@@ -2,7 +2,7 @@
 # Vaishya
 Vaishya (Merchant) is a proof-of-concept for post-quantum cryptography and linguistic steganography applied to financial interoperability. 
 
-> "It is the liberation of the merchant from the borders between data, algorithms, and countries.
+> "It is the liberation of the merchant from the borders between data, algorithms, and countries"
 
 ## Layers
 Vaishya encrypts a dummy BRICS Pay Pix payload invoice through a multi-layer pipeline, using an original narrative:
