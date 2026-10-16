@@ -1,10 +1,4 @@
-// vaishya-pqc-i18n.js — applies EACH translation to the Noble ops (Layer 2 in practice).
-// Per language: ML-KEM-768 (keygen→encapsulate→decapsulate) + ML-DSA-65
-// (keygen→sign→verify) over the BRICS Pay dummy payload, with labels in each language.
-// Current name by user curation (was vaishya-pqc-todas.js).
-// Usage: node vaishya-pqc-i18n
-// runs lore/traducao.md → "Tradução PQC hardcoded: o código é a tradução"
-// runs lore/traducao.md → "Curadoria do usuário não se reverte sem perguntar"
+
 import { readFileSync } from 'node:fs';
 import { ml_kem768 } from '@noble/post-quantum/ml-kem.js';
 import { ml_dsa65 } from '@noble/post-quantum/ml-dsa.js';
