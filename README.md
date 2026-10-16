@@ -136,7 +136,7 @@ node vaishya-vault-decrypt-tencent.js
 node vaishya-vault-decrypt-bcb.js
 node vaishya-vault-decrypt-pboc.js
 
-# Portuguese variants
+# Portuguese variants:
 node vaishya-vault-descriptografar-steam.js
 node vaishya-vault-descriptografar-tencent.js
 node vaishya-vault-descriptografar-bcb.js
@@ -154,15 +154,15 @@ Each script opens the envelope with its own private key. All four see the same t
 ### **Layer 2 — Linguistic steganography (LSM)**:
 
 ```bash
-# English variants
+# English variants:
 node vaishya-lsm-encrypt-txt.js
 node vaishya-lsm-encrypt-print.js
 
-# Portuguese variants
+# Portuguese variants:
 node vaishya-lsm-criptografar-txt.js
 node vaishya-lsm-criptografar-print.js
 
-# Spanish variants
+# Spanish variants:
 node vaishya-lsm-cifrar-txt.js
 node vaishya-lsm-cifrar-print.js
 ```
