@@ -1,12 +1,4 @@
-// vaishya-lsm-decifrar.mjs — decrypts ONLY (Vaishya Layer 3, NL-LSM via Abracadabra).
-// Text in classical Chinese -> JSON. No kxco, no vault.
-// Lore: on DECRYPT wenyanConfig is undefined, but advancedEnc stays required (object, never null).
-// runs lore/esteganografia.md → "Chave demo por operação, nunca global fixa"
-// runs lore/envelope.md → "Scripts ESM em pasta commonjs: .mjs ou type module"
-// Usage: node vaishya-lsm-decifrar.mjs [input.wenyan.txt] [output.json] [key]
-// Defaults: ./vaishya-payload-invoice-bricspay-pix.wenyan.txt -> ./vaishya-payload-invoice-bricspay-pix.restored.json
-// Default key: VAISHYA_DEMO_KEY or vaishya-PEDIDO09111989 (DUMMY per-operation).
-import { createHash } from 'node:crypto';
+
 import { readFileSync, writeFileSync } from 'node:fs';
 import { Abracadabra } from 'abracadabra-cn';
 
