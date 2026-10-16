@@ -1,13 +1,4 @@
-// vaishya-vault-cifrar.js — end-to-end multi-key ML-KEM-768 envelope (Layer 4).
-// SINGLE GENERATION WITH OVERWRITE: on each run (without --keep) ALL .kxco files are
-// regenerated and the script prints to the terminal exactly what it wrote to the file
-// (recipient + kid), reading back to prove terminal == file.
-// `--keep` reuses the existing .kxco files without touching them.
-// Flow: (re)generate identities -> encrypt -> print CIPHERTEXT (hex) -> write .kxco
-// -> selftest: decrypt with EACH identity and verify the SHA.
-// PQC: ML-KEM-768 only (refuses any other algorithm). AES-256-GCM on the payload.
-// Usage: node vaishya-vault-cifrar [<id.kxco> ...] [--in input] [--out output] [--keep]
-// Defaults: steam tencent bcb pboc; in=raw payload; out=<in>.kxco
+
 import { createHash, randomBytes } from 'node:crypto';
 import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, isAbsolute, resolve } from 'node:path';
