@@ -93,6 +93,7 @@ The payload fields are mapped across different payment rails. A field that means
 ```bash
 git clone https://github.com/lonelyachemist-arch/Vaishya.git
 cd Vaishya
+```
 
 ### 2. Install Dependencies
 
