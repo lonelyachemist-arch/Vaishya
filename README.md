@@ -25,7 +25,7 @@ The payload contains:
 
 ### 2. Post-Quantum Multi-Recipient Envelope Encryption
 
-The payload is wrapped in a multi-recipient ML-KEM-768 envelope using `kxco-pq-vault`. Each recipient (Steam, Tencent, BCB, and PBOC) gets their own private key and can decrypt the payload by themselves, without the need to obtain a master private key. One payload, multiple recipients, independent keys.
+The payload is wrapped in a multi-recipient **ML-KEM-768** envelope using `kxco-pq-vault`. Each recipient (Steam, Tencent, BCB, and PBOC) gets their own private key and can decrypt the payload by themselves, without the need to obtain a master private key. One payload, multiple recipients, independent keys.
 
 ### 3. Linguistic Steganography — NL-LSM (Experimental)
 
