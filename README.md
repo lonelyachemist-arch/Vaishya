@@ -123,7 +123,7 @@ node vaishya-vault-criptografar.js
 
 node vaishya-vault-cifrar.js
 ```
-Generates the four identities (´steam.kxco´, ´tencent.kxco´, ´bcb.kxco´, ´pboc.kxco´), wraps the payload in a multi-recipient ML-KEM-768 envelope, and runs a selftest with each identity.
+Generates the four identities (`steam.kxco`, `tencent.kxco`, `bcb.kxco`, `pboc.kxco`), wraps the payload in a multi-recipient ML-KEM-768 envelope, and runs a selftest with each identity.
 
 **Decrypt as each recipient** 
 
