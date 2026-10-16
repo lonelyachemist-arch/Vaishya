@@ -1,7 +1,4 @@
-// vaishya-vault-decrypt-bcb.js — opens the envelope as BCB (Layer 4).
-// Fixed identity: ./bcb.kxco (reads the private key generated in the file).
-// PQC: ML-KEM-768 only. Usage: node vaishya-vault-decrypt-bcb [--in E] [--out S] [--print]
-// runs lore/envelope.md → "kid é etiqueta, não chave"
+
 import { createHash } from 'node:crypto';
 import { readFileSync, writeFileSync } from 'node:fs';
 import { dirname, isAbsolute, resolve } from 'node:path';
