@@ -1,7 +1,4 @@
-// vaishya-vault-decifrar-pboc.js — abre o envelope como PBOC (Camada 4).
-// Identidade fixa: ./pboc.kxco (lê a chave privada gerada no arquivo).
-// PQC: ML-KEM-768 exclusivo. Uso: node vaishya-vault-decifrar-pboc [--in E] [--out S] [--print]
-// runs lore/envelope.md → "kid é etiqueta, não chave"
+
 import { createHash } from 'node:crypto';
 import { readFileSync, writeFileSync } from 'node:fs';
 import { dirname, isAbsolute, resolve } from 'node:path';
