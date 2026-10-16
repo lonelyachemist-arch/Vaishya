@@ -1,13 +1,4 @@
-// vaishya-vault-cifrar.js — envelope multi-chave ML-KEM-768 fim a fim (Camada 4).
-// GERAÇÃO ÚNICA E SOBRESCRITA: a cada execução (sem --keep) TODOS os .kxco são
-// regenerados e o script imprime no terminal exatamente o que gravou no arquivo
-// (recipient + kid), com leitura de volta para provar terminal == arquivo.
-// `--keep` reutiliza os .kxco existentes sem tocar neles.
-// Fluxo: (re)gera identidades -> cifra -> imprime CIPHERTEXT (hex) -> grava .kxco
-// -> selftest: decifra com CADA identidade e confere o SHA.
-// PQC: ML-KEM-768 exclusivo (recusa qualquer outro algoritmo). AES-256-GCM no payload.
-// Uso: node vaishya-vault-cifrar [<id.kxco> ...] [--in entrada] [--out saida] [--keep]
-// Defaults: steam tencent bcb pboc; in=payload puro; out=<in>.kxco
+
 import { createHash, randomBytes } from 'node:crypto';
 import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, isAbsolute, resolve } from 'node:path';
