@@ -27,11 +27,13 @@ The payload contains:
 
 The payload is wrapped in a multi-recipient ML-KEM-768 envelope using `kxco-pq-vault`. Each recipient (Steam, Tencent, BCB, and PBOC) gets their own private key and can decrypt the payload by themselves, without the need to obtain a master private key. One payload, multiple recipients, independent keys.
 
-### 3. Linguistic Steganography (Experimental)
+### 3. Linguistic Steganography — NL-LSM (Experimental)
+
+Vaishya introduces the NL-LSM (Natural Language Linguistic Steganography Mechanism) concept. **Abracadabra** serves as the **LSM** (Linguistic Steganography Mechanism), the linguistic equivalent of ML-KEM. Just as **ML** (Module-Lattice) is the mathematical foundation of ML-KEM, **NL** (Natural Language) is the linguistic foundation of LSM. While ML-KEM ciphers the message in a high entropy ciphertext, LSM ciphers the message in a natural language text.
 
 The payload is hidden inside a classical Chinese text using the **Abracadabra** engine, as a proof-of-concept for linguistic steganography applied to financial data encryption. The payload is compressed, encrypted, and mapped to Chinese characters, producing a text that appears to be classical Chinese literature.
 
-**⚠️ Experimental:** This layer is marked as experimental and cannot be part of a production pipeline. It is included to demonstrate the feasibility of linguistic steganography in financial payloads, as Abracadabra operates under AIPL 1.2 license. 
+**⚠️ Experimental:** This layer is marked as experimental and cannot be part of a production pipeline. It is included to demonstrate the feasibility of linguistic steganography in financial payloads, as Abracadabra operates under AIPL-1.2 license. 
 
 ### 4. PQC I18n (Internationalization)
 
@@ -149,7 +151,7 @@ node vaishya-vault-descifrar-pboc.js
 
 Each script opens the envelope with its own private key. All four see the same transaction.
 
-### **Layer 2 — Linguistic steganography (classical Chinese)**:
+### **Layer 2 — Linguistic steganography (LSM)**:
 
 ```bash
 # English variants
