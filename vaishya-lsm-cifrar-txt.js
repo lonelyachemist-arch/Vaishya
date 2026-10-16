@@ -1,11 +1,4 @@
-// vaishya-lsm-cifrar.mjs — SOLO cifra (Capa 3 Vaishya, NL-LSM vía Abracadabra).
-// JSON -> texto en chino clásico. Sin kxco, sin vault.
-// Lore: advancedEnc siempre objeto ({ Enable: false }), nunca null.
-// runs lore/esteganografia.md → "Chave demo por operação, nunca global fixa"
-// runs lore/envelope.md → "Scripts ESM em pasta commonjs: .mjs ou type module"
-// Uso: node vaishya-lsm-cifrar.mjs [entrada.json] [salida.wenyan.txt] [clave]
-// Por defecto: ./vaishya-payload-invoice-bricspay-pix.json -> ./vaishya-payload-invoice-bricspay-pix.wenyan.txt
-// Clave por defecto: VAISHYA_DEMO_KEY o vaishya-PEDIDO09111989 (DUMMY por operación).
+
 import { createHash } from 'node:crypto';
 import { readFileSync, writeFileSync } from 'node:fs';
 import { Abracadabra } from 'abracadabra-cn';
