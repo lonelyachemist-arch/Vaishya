@@ -1,9 +1,4 @@
-// vaishya-lsm-descifrar-print.mjs — copia de vaishya-lsm-descifrar.js que SIEMPRE imprime.
-// Texto en chino clásico -> JSON en stdout. Nunca escribe archivo. Sin kxco, sin vault.
-// Lore: en DECRYPT wenyanConfig es undefined, pero advancedEnc sigue obligatorio (objeto, nunca null).
-// Uso: node vaishya-lsm-descifrar-print [entrada.wenyan.txt] [clave]
-// Defaults: ./vaishya-payload-invoice-bricspay-pix.wenyan.txt
-// Clave por defecto: VAISHYA_DEMO_KEY o vaishya-PEDIDO09111989 (DUMMY por operación).
+
 import { readFileSync } from 'node:fs';
 import { Abracadabra } from 'abracadabra-cn';
 
