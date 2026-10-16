@@ -44,7 +44,7 @@ The post-quantum cryptographic terms are translated into the reader's language u
 - **Sanskrit (BRICS):** The classical language of India, a BRICS member and the birthplace of the UPI payment system.
 - **Italian (Europe):** A bridge to the European Union, home of the TIPS payment system.
 
-The same operation — `encrypt`, `decrypt`, `sign`, `verify`, `public key`, `private key` — is rendered in each language, so that an auditor can read the cryptographic report in their own language, without needing technical English.
+The same operation — `encrypt`, `decrypt`, `sign`, `verify`, `public key`, `private key` — is translated to each language, so that an auditor can read the cryptographic report in their own language, without needing technical English.
 
 ### 5. Semantic Translation of Payment Rail Fields
 
@@ -203,8 +203,12 @@ json sha=23cd3da802d8 restored sha=23cd3da802d8 match=true [key=vaishya-PEDIDO09
 
 ```bash
 node vaishya-pqc-i18n.js
+node vaishya-traducao-pt.js
+node vaishya-traduccion-es.js
+node vaishya-traduzione-it.js
+node vaishya-anuvada-sa.js
 ```
-Runs ML-KEM-768 and ML-DSA-65 for each language: Portuguese (Brazil), Spanish (LATAM), Sanskrit (BRICS), Italian (Europe).
+Runs the ML-KEM-768 and ML-DSA-65 translation to each language: Portuguese (Brazil), Spanish (LATAM), Sanskrit (BRICS), Italian (Europe). Run the general script or run each translation individually. 
 
 
 ### **Layer 4 — Semantic translation (UPI, CLP, TIPS ↔ Pix)**:
