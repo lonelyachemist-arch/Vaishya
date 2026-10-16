@@ -1,16 +1,5 @@
-// vaishya-vault-cifrar.js — sobre multi-clave ML-KEM-768 de punta a punta (Capa 4).
-// GENERACIÓN ÚNICA CON SOBRESCRITURA: en cada ejecución (sin --keep) TODOS los .kxco se
-// regeneran y el script imprime en la terminal exactamente lo que grabó en el archivo
-// (recipient + kid), con relectura para probar terminal == archivo.
-// `--keep` reutiliza los .kxco existentes sin tocarlos.
-// Flujo: (re)genera identidades -> cifra -> imprime CIPHERTEXT (hex) -> graba .kxco
-// -> selftest: descifra con CADA identidad y compara el SHA.
-// PQC: ML-KEM-768 exclusivo (rechaza cualquier otro algoritmo). AES-256-GCM en el payload.
-// Uso: node vaishya-vault-cifrar [<id.kxco> ...] [--in entrada] [--out salida] [--keep]
-// Por defecto: steam tencent bcb pboc; in=payload puro; out=<in>.kxco
-// runs lore/envelope.md → "kid é etiqueta, não chave"
-// runs lore/envelope.md → "Geração única: o terminal gera, o arquivo guarda, o script consome"
-// runs lore/envelope.md → "Camadas independentes: cifra no JSON, wenyan em processo próprio"
+
+
 import { createHash, randomBytes } from 'node:crypto';
 import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, isAbsolute, resolve } from 'node:path';
