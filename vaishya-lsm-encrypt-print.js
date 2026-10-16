@@ -1,9 +1,4 @@
-// vaishya-lsm-cifrar-print.mjs — copy of vaishya-lsm-cifrar.js that ALWAYS prints.
-// JSON -> text in classical Chinese on stdout. Never writes a file. No kxco, no vault.
-// Lore: advancedEnc always an object ({ Enable: false }), never null.
-// Usage: node vaishya-lsm-cifrar-print [input.json] [key]
-// Defaults: ./vaishya-payload-invoice-bricspay-pix.json
-// Default key: VAISHYA_DEMO_KEY or vaishya-PEDIDO09111989 (DUMMY per-operation).
+
 import { readFileSync } from 'node:fs';
 import { Abracadabra } from 'abracadabra-cn';
 
