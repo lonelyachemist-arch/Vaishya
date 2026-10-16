@@ -11,7 +11,7 @@ Vaishya encrypts a dummy BRICS Pay Pix payload invoice through a multi-layer pip
 
 ### 1. Payload
 
-A dummy **BRICS Pay Pix invoice (JSON)** is used as the input. It is based on the ´**BRICS Pay E-commerce API Reference**´, whose fields are filled with data from the russian payment rail, but adpated to Pix, as BRICS Pay is set to integrate Pix as one of its payments systems.
+A dummy **BRICS Pay Pix invoice (JSON)** is used as the input. It is based on the **BRICS Pay E-commerce API Reference**, whose fields are filled with data from the russian payment rail, but adpated to Pix, as BRICS Pay is set to integrate Pix as one of its payments systems.
 
 The payload contains:
 
