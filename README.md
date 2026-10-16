@@ -7,7 +7,7 @@ Vaishya (Merchant) is a proof-of-concept for post-quantum cryptography and lingu
 ## Layers
 Vaishya encrypts a dummy BRICS Pay Pix payload invoice through a multi-layer pipeline, using an original narrative:
 
-> A Brazilian buyer purchases a Metal Gear Solid 1 Remake DLC for Delta Force on Steam. Steam redirects the payment to Tencent (the game's publisher). The transaction is processed via Pix through BRICS Pay, with the envelope shared between Steam, Tencent, BCB (Brazilian Central Bank), and PBOC (People´s Bank of China).
+> A Brazilian buyer purchases a Metal Gear Solid 1 Remake DLC for Delta Force on Steam. Steam redirects the payment to Tencent (the game's publisher). The transaction is processed via Pix through BRICS Pay, with a multi-recipient post-quantum envelope generated for Steam, Tencent, BCB (Brazilian Central Bank), and PBOC (People's Bank of China). .
 
 ### 1. Payload
 
