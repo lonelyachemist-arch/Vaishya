@@ -33,7 +33,7 @@ Vaishya introduces the NL-LSM (Natural Language - Linguistic Steganography Mecha
 
 The payload is hidden inside a classical Chinese text using the **Abracadabra** engine, as a proof-of-concept for linguistic steganography applied to financial data encryption. The payload is compressed, encrypted, and mapped to Chinese characters, producing a text that appears to be classical Chinese literature.
 
-**⚠️ Experimental:** This layer is marked as experimental and cannot be part of a production pipeline. It is included to demonstrate the feasibility of linguistic steganography in financial payloads, as Abracadabra operates under AIPL-1.2 license. 
+**⚠️ Experimental:** This layer is marked as experimental and cannot be part of a production pipeline. It is included to demonstrate the feasibility of linguistic steganography in financial payloads, as Abracadabra operates under **AIPL-1.2** license. 
 
 ### 4. PQC I18n (Internationalization)
 
