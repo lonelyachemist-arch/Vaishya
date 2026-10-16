@@ -1,9 +1,4 @@
-// vaishya-lsm-cifrar-print.mjs — copia de vaishya-lsm-cifrar.js que SIEMPRE imprime.
-// JSON -> texto en chino clásico en stdout. Nunca escribe archivo. Sin kxco, sin vault.
-// Lore: advancedEnc siempre objeto ({ Enable: false }), nunca null.
-// Uso: node vaishya-lsm-cifrar-print [entrada.json] [clave]
-// Defaults: ./vaishya-payload-invoice-bricspay-pix.json
-// Clave por defecto: VAISHYA_DEMO_KEY o vaishya-PEDIDO09111989 (DUMMY por operación).
+
 import { readFileSync } from 'node:fs';
 import { Abracadabra } from 'abracadabra-cn';
 
