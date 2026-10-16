@@ -1,9 +1,4 @@
-// vaishya-lsm-decifrar.mjs — SÓ decifra (Camada 3 Vaishya, NL-LSM via Abracadabra).
-// Texto em chinês clássico -> JSON. Sem kxco, sem vault.
-// Lore: no DECRYPT o wenyanConfig é undefined, mas o advancedEnc continua obrigatório (objeto, nunca null).
-// Uso: node vaishya-lsm-decifrar.mjs [entrada.wenyan.txt] [saida.json] [chave]
-// Defaults: ./vaishya-payload-invoice-bricspay-pix.wenyan.txt -> ./vaishya-payload-invoice-bricspay-pix.restored.json
-// Chave default: VAISHYA_DEMO_KEY ou vaishya-PEDIDO09111989 (DUMMY por-operação).
+
 import { createHash } from 'node:crypto';
 import { readFileSync, writeFileSync } from 'node:fs';
 import { Abracadabra } from 'abracadabra-cn';
