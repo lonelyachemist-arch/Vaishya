@@ -1,8 +1,4 @@
-// vaishya-clp-pix.js — SOMENTE equivalência CLP:PIX (Fintoc → PIX).
-// Sem dados, sem envelope. Só o mapeamento campo ≡ campo.
-// runs lore/payload.md → "Mapeamento Moksha→Create Invoice: identidade do PIX, comercial do usuário"
-// runs lore/envelope.md → "Guarda main tolera com/sem extensão"
-// runs lore/payload.md → "Equivalência por arquivo de trilho, sem dados"
+
 export const CLP_PIX = {
   rut: 'cpf',
   monto: 'amount',
