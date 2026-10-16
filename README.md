@@ -29,7 +29,7 @@ The payload is wrapped in a multi-recipient **ML-KEM-768** envelope using `kxco-
 
 ### 3. Linguistic Steganography — NL-LSM (Experimental)
 
-Vaishya introduces the NL-LSM (Natural Language - Linguistic Steganography Mechanism) concept. **Abracadabra** serves as the **LSM** (Linguistic Steganography Mechanism), the linguistic equivalent of the post-quantum algorithm ML-KEM. Just as **ML** (Module-Lattice) is the mathematical foundation of ML-KEM, **NL** (Natural Language) is the linguistic foundation of LSM. While ML-KEM ciphers the message in a high entropy ciphertext, LSM ciphers the message in a natural language text.
+Vaishya introduces the NL-LSM (Natural Language - Linguistic Steganography Mechanism) concept. **Abracadabra** serves as the **LSM** (Linguistic Steganography Mechanism), the linguistic equivalent of ML-KEM. Just as **ML** (Module-Lattice) is the mathematical foundation of ML-KEM, **NL** (Natural Language) is the linguistic foundation of LSM. While ML-KEM ciphers the message in a high entropy ciphertext, LSM ciphers the message in a natural language text.
 
 The payload is hidden inside a classical Chinese text using the **Abracadabra** engine, as a proof-of-concept for linguistic steganography applied to financial data encryption. The payload is compressed, encrypted, and mapped to Chinese characters, producing a text that appears to be classical Chinese literature.
 
