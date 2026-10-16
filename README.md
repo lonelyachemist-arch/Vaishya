@@ -99,6 +99,7 @@ cd Vaishya
 ```bash
 npm install
 ```
+
 ### 3. Run the full pipeline
 
 The pipeline is multilingual. Each layer has EN, PT, and ES variants.
