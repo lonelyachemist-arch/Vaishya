@@ -1,10 +1,4 @@
-// vaishya-lsm-roundtrip.mjs — tests ONLY (Vaishya Layer 3, NL-LSM via Abracadabra).
-// Encrypts and decrypts in memory and compares SHA256. Writes no file. No kxco, no vault.
-// Usage: node vaishya-lsm-roundtrip.mjs [input.json] [key]
-// runs lore/esteganografia.md → "Chave demo por operação, nunca global fixa"
-// runs lore/envelope.md → "Scripts ESM em pasta commonjs: .mjs ou type module"
-// Defaults: ./vaishya-payload-invoice-bricspay-pix.json
-// Default key: VAISHYA_DEMO_KEY or vaishya-PEDIDO09111989 (DUMMY per-operation).
+
 import { createHash } from 'node:crypto';
 import { readFileSync } from 'node:fs';
 import { Abracadabra } from 'abracadabra-cn';
