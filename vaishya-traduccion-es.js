@@ -1,6 +1,4 @@
-// vaishya-traduccion-es.js — SOLO español (LATAM). Sin envoltura, sin otros idiomas.
-// runs lore/traducao.md → "Tradução PQC hardcoded: o código é a tradução"
-// runs lore/traducao.md → "Script de idioma mostra sua tabela quando executado direto"
+
 export const TERMOS = {
   ciphertext: 'texto cifrado',
   'Private Key': 'clave privada',
