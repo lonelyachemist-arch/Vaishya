@@ -1,9 +1,4 @@
-// vaishya-lsm-cifrar.mjs — encrypts ONLY (Vaishya Layer 3, NL-LSM via Abracadabra).
-// JSON -> text in classical Chinese. No kxco, no vault.
-// Lore: advancedEnc always an object ({ Enable: false }), never null.
-// Usage: node vaishya-lsm-cifrar.mjs [input.json] [output.wenyan.txt] [key]
-// Defaults: ./vaishya-payload-invoice-bricspay-pix.json -> ./vaishya-payload-invoice-bricspay-pix.wenyan.txt
-// Default key: VAISHYA_DEMO_KEY or vaishya-PEDIDO09111989 (DUMMY per-operation).
+
 import { createHash } from 'node:crypto';
 import { readFileSync, writeFileSync } from 'node:fs';
 import { Abracadabra } from 'abracadabra-cn';
