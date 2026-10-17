@@ -194,6 +194,8 @@ json sha=23cd3da802d8 restored sha=23cd3da802d8 match=true [key=vaishya-PEDIDO09
 
 ```bash
 node vaishya-pqc-i18n.js
+
+# Traduções individuais
 node vaishya-traducao-pt.js
 node vaishya-traduccion-es.js
 node vaishya-traduzione-it.js
@@ -209,4 +211,4 @@ node vaishya-upi-pix.js
 node vaishya-clp-pix.js
 node vaishya-tips-pix.js
 ```
-Cada script imprime a equivalência de campos entre o trilho de pagamento especificado e o Pix.
+Cada script imprime a **equivalência de campos** entre o trilho de pagamento especificado e o Pix.
