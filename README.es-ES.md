@@ -25,7 +25,7 @@ El payload contiene:
 - `products`: "Delta Force - Metal Gear Solid 1 DLC" (sku, unitPrice, quantity)
 
 ### 2. Sobre Post-Cuántico Multi-Destinatario
-El payload se envuelve en un sobre **ML-KEM-768** multi-destinatario usando `kxco-pq-vault`. Cada destinatario (Steam, Tencent, BCB y PBOC) recibe su propia clave privada y puede descifrar el payload por sí mismo, sin necesidad de obtener una clave privada maestra. Un payload, múltiples destinatarios, claves independientes.
+El payload se envuelve en un sobre **ML-KEM-768** multi-destinatario utilizando `kxco-pq-vault`. Cada destinatario (Steam, Tencent, BCB y PBOC) recibe su propia clave privada y puede descifrar el payload por sí mismo, sin necesidad de obtener una clave privada maestra. Un payload, múltiples destinatarios, claves independientes.
 
 ### 3. Esteganografía Lingüística — NL-LSM (Experimental)
 Vaishya introduce el concepto de **NL-LSM** (Natural Language Linguistic Steganography Mechanism). **Abracadabra** sirve como el **LSM** (Linguistic Steganography Mechanism), el equivalente lingüístico del ML-KEM. Así como **ML** (Module-Lattice) es la base matemática del ML-KEM, **NL** (Natural Language) es la base lingüística del LSM. Mientras ML-KEM cifra el mensaje en un texto cifrado de alta entropía, el LSM cifra el mensaje en un texto de lenguaje natural.
