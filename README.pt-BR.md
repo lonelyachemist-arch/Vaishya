@@ -190,7 +190,7 @@ Cifra e decifra o payload em memória e compara o SHA-256. Este teste valida que
 json sha=23cd3da802d8 restored sha=23cd3da802d8 match=true [key=vaishya-PEDIDO09111989]
 ```
 
-### **Camada 3 — I18n de PQC (todas as quatro línguas):**:
+### **Camada 3 — I18n de PQC (todas as quatro línguas):**
 
 ```bash
 node vaishya-pqc-i18n.js
