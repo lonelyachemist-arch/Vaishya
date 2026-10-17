@@ -203,6 +203,8 @@ json sha=23cd3da802d8 restored sha=23cd3da802d8 match=true [key=vaishya-PEDIDO09
 
 ```bash
 node vaishya-pqc-i18n.js
+
+# Individual translations 
 node vaishya-traducao-pt.js
 node vaishya-traduccion-es.js
 node vaishya-traduzione-it.js
@@ -218,7 +220,7 @@ node vaishya-upi-pix.js
 node vaishya-clp-pix.js
 node vaishya-tips-pix.js
 ```
-Each script prints the field equivalence between the specified payment rail and Pix.
+Each script prints the **field equivalence** between the specified payment rail and Pix.
 
 
 
