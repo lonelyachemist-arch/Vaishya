@@ -46,7 +46,7 @@ Os termos de criptografia pós-quântica são traduzidos para a língua do leito
 A mesma operação — `encrypt`, `decrypt`, `sign`, `verify`, `public key`, `private key` — é traduzida para cada língua, para que um auditor possa verificar o fluxo da critptografia na sua própria língua, sem precisar de inglês técnico.
 
 ### 5. Tradução Semântica de Campos de Trilhos de Pagamento
-Os campos do payload são mapeados entre diferentes trilhos de pagamento. Um campo que significa "ID da transação" é `txid` no Pix, `tr` no UPI, `referencia` no CLP e `EndToEndIdentification` no TIPS. Vaishya traduz mapeando a equivalência semântica entre eles, para que um auditor em uma jurisdição possa ler uma transação de outra jurisdição no vocabulário do seu próprio trilho.
+Os campos do payload são mapeados entre diferentes trilhos de pagamento. O campo que indica o ID da transação é `txid` no Pix, `tr` no UPI, `referencia` no CLP e `EndToEndIdentification` no TIPS. Vaishya traduz mapeando a equivalência semântica entre eles, para que um auditor em uma jurisdição possa ler uma transação de outra jurisdição no vocabulário do seu próprio trilho.
 
 **Mapeamentos suportados:**
 
